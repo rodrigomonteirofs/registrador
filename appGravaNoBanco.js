@@ -20,10 +20,10 @@ const insertData = async () => {
 
       // crie uma conexão com o banco de dados MySQL
       const connection = await mysql.createConnection({
-        host: '149.100.154.57',
-        user: 'pega_user',
+        host: 'localhost',
+        user: 'maquinaRodrigo',
         password: 'Vid@Lok@.',
-        database: 'pega_dadosbrancos'
+        database: 'dbbrancos'
       });
 
       // insira os dados na tabela
