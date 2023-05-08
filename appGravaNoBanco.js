@@ -1,5 +1,5 @@
 const mysql = require('mysql2/promise');
-const fetch = require('node-fetch');
+const fetch = await import('node-fetch');
 const moment = require('moment');
 
 let lastId;
